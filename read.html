@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1 - Novelist</title>
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+    <header>
+        <a href="chapter.html" class="back-btn">Kembali ke Daftar Chapter</a>
+        <button id="toggle-mode">Mode Gelap</button>
+        <button id="increase-font">A+</button>
+        <button id="decrease-font">A-</button>
+    </header>
+
+    <main>
+        <article class="chapter-content">
+            <h1>Chapter 1: Awal Pertemuan</h1>
+            <p>
+                Ini adalah awal cerita di mana karakter utama bertemu untuk pertama kalinya. 
+                Mereka tidak menyadari bahwa pertemuan ini akan mengubah hidup mereka selamanya...
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <button id="mark-read">Tandai Selesai</button>
+        <a href="read.html" class="nav-btn">Previous Chapter</a>
+        <a href="read.html" class="nav-btn">Next Chapter</a>
+    </footer>
+
+    <script src="script.js"></script>
+    <section class="comments">
+    <h2>Diskusi Chapter</h2>
+    <div id="comment-list"></div>
+    <textarea id="comment-input" placeholder="Tulis komentar..."></textarea>
+    <button id="submit-comment">Kirim</button>
+</section>
+<button id="save-bookmark">Tambahkan Bookmark</button>
+<button id="toggle-read-mode">Mode Halaman</button>
+<button id="prev-page">Sebelumnya</button>
+<button id="next-page">Berikutnya</button>
+
+<div class="settings">
+    <button id="toggle-dark-mode">🌙 Mode Gelap</button>
+    <button id="increase-font">A+</button>
+    <button id="decrease-font">A-</button>
+</div>
+
+<div id="highlighted-text"></div>
+<div id="notes-section">
+    <h3>Catatan Anda</h3>
+    <ul id="notes-list"></ul>
+</div>
+
+  <script src="../assets/script.js"></script>
+
+</body>
+</html>
